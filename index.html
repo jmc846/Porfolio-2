@@ -1,0 +1,302 @@
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <!-- We need the following responsive meta tag to ensure things scale correctly across varying
+      devices. -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Responsive Portfolio</title>
+      <!-- We need to bring in the bootstrap CSS -->
+      <!-- CSS only -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <!-- Load font awesome icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- JS, Popper.js, and jQuery -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+          crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+          integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+          crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+          integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+          crossorigin="anonymous"></script>
+      <!-- my css style sheet -->
+      <link rel="stylesheet" href="./assets/css/style.css" />
+     
+      <script src="assets/js/portfolio.js" defer></script>
+  
+  </head>
+  
+  <body id="greetingTab">
+      <div class="container" style="max-width: 1440px; overflow: hidden;">
+          <div class="fixed-top" style="max-width: 1440px;">
+              <div class="collapse" id="navbarToggleExternalContent">
+                  <div class="row" id="Row1">
+                    <main class="container">
+                        <section class="row pad">
+                      <div class="col-lg-12 w pad text-dark card" id="Brand">
+                          <a title="about" href="#" class="active"><span>Quick Access</span></a>
+                      </div>
+                      <section class="container">
+                      <section class="row pad">
+                      <div class="col-lg-12 w pad text-dark card">
+                          <div class="row" id="subRow">
+                              <!-- in order to further separate Brand and Navigation bar one "space tab" was created. 
+                                  Text on it is invisible -->
+                              <div class="col-0 col-sm-0 col-md-3 col-lg-5">
+                                  <h6 id="SpaceTab"> </h6>
+                              </div>
+                              <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                                  <a title="web portfolio" href="#projects" class="NavA"><span
+                                          class="NavP">portfolio</span></a>
+                              </div>
+                              <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                                  <a title="contact" href="mailto: jmc846@scarletmail.rutgers.gmail.com" class="NavA"><span
+                                          class="NavP">contact</span></a>
+                              </div>
+                              <div class="col-md-6">
+                                  <a title="resume" data-toggle="modal" data-target="#modal1" class="NavA"><span
+                                          class="NavP">Resume</span></a>
+                              </div>
+                              <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                                <a title="contact" href="./projects.html" class="NavA"><span
+                                        class="NavP">FULL Stack Projects</span></a>
+                            </div>
+                              
+                          </div>
+                      </div>
+                  </div>
+  
+              </div>
+              <nav class="navbar navbar-dark" class= "navbar">
+                   <button class="navbar-toggler" id="btnMenu" type="button" style="background-color:rgba(226, 31, 31, 0.986) ;"
+                      data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                      aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button> 
+              </nav>
+          </div>
+              <!-- <div class="col-lg-12 w pad text-dark card"> -->
+                <main class="container">
+                    <!-- <div class="col-lg-12 w pad text-dark card"> -->
+                    <div class="jumbotron jumbotron-fluid bg-transparent">
+                        <div class="row">
+                        <img src="./assets/images/myGif.gif"  class= "nameGIF" type="gif"/>
+                                </div>
+                            </div>
+           <br></br>
+             <!-- <div class="col-lg-12 w pad text-dark card"> 
+              <section id= 'github links & repositories'>
+                  <p class=head22>Git Repos and Links</p>
+                   
+                          
+                  <div class= "container"></div>
+                  <section class="row pad">
+                    <div class="col-lg-12 w pad text-dark card">
+                      <figure class="description">                           
+                          <a href="https://jmc846.github.io/Calendar-API/" target="_blank">
+                              <h3 class="head1">Day Planner</h3>
+                          </a>
+                          <a href="https://github.com/jmc846/Calendar-API" target="_blank">
+                              <h3 class="head1">Link to GitHub depository</h3>
+                          </a>
+                          <p>A simple calendar application that allows the user to save events for each hour of the
+                              day.
+                          </p>  
+                      </figure>
+                  </div>             
+                  </section>
+      <main class="container">
+        <section class="row pad">
+                      <div class="col-lg-12 w pad text-dark card">
+                      <figure class="description">
+                          <a href="https://jmc846.github.io/BootstrapResponsive/" target="_blank">
+                              <h3 class="head1">Responsive Portfolio</h3>
+                          </a>
+                          <a href="https://github.com/jmc846/BootstrapResponsive" target="_blank">
+                              <p class="head1">Link to GitHub depository</p>
+                          </a>
+                          <p> A responsive html with photos, scroll background and images</p>
+                      </figure>
+                  </div>
+                  </section>
+                  <div class="container">
+                      
+                  </div>
+                  <div class= "container"></div>
+                  <section class="row pad">
+                    <div class="col-lg-12 w pad text-dark card">
+                      <figure class="description">
+                          <a href="https://jmc846.github.io/Password-Generator/" target="_blank">
+                              <h3 class="head1">Password Generator</h3>
+                          </a>
+                          <a href="https://github.com/jmc846/Password-Generator" target="_blank">
+                              <p class="head1">Link to GitHub depository</p>
+                          </a>
+                          <p>A simple application that generates unique passwords based on parameters set by the user.
+                          </p>
+                      </figure>
+                  </div>               </div>  
+              
+              </section>
+              </section>
+                  <!-- Projects Section -->
+              <section id="projects" class="sec2">
+                   
+              </aside>-->
+              <div class="container">
+                <h2>Daily Planner Project</h2>  
+                <div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+                   <!-- <--Indicators--> 
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+              
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="./assets/images/images/plannerimages/Full time color.PNG" alt="Completed Generated Password" style="width:50%;">
+                    </div>
+              <br></br>
+                    <div class="item">
+                      <img src="./assets/images/images/plannerimages/PAST COLOR TIME.PNG" alt="Initial Password Screen" style="width:50%;">
+                    </div>
+                    <br></br>
+                    <div class="item">
+                      <img src="./assets/images/images/plannerimages/Planner TIme imAGE.PNG" alt="User Password Prompts" style="width:50%;">
+                    </div>
+                  </div>
+                  <br></br>
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+              <div class="container">
+                <h2>Responsive Portfolio Project</h2>  
+                <div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+                   <!-- <--Indicators--> 
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel2" data-slide-to="1"></li>
+                <li data-target="#myCarousel2" data-slide-to="2"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="./assets/images/images/responsivePrj/imagepage.PNG" alt="Completed Generated Password" style="width:100%;">
+                </div>
+                <br></br>
+                <div class="item">
+                  <img src="./assets/images/images/responsivePrj/numbers.PNG" alt="Initial Password Screen" style="width:100%;">
+                </div>
+                <br></br>
+                <div class="item">
+                  <img src="./assets/images/images/responsivePrj/Responsivehome.PNG" alt="User Password Prompts" style="width:100%;">
+                </div>
+              </div>
+              <br></br>
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+                <br></br>
+              <div class="container">
+                <h2>Password Generator Project</h2>  
+                <div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+                   <!-- <--Indicators--> 
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+              
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="./assets/images/images/passwordimages/complete password.PNG" alt="Completed Generated Password" style="width:100%;">
+                    </div>
+                    <br></br>
+                    <div class="item">
+                      <img src="./assets/images/images/passwordimages/Password Initial.PNG" alt="Initial Password Screen" style="width:100%;">
+                    </div>
+                    <br></br>
+                    <div class="item">
+                      <img src="./assets/images/images/passwordimages/prompt1.PNG" alt="User Password Prompts" style="width:100%;">
+                    </div>
+                  </div>
+                  <br></br>
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+              <div class="modal fade" id="modal1" role="dialog">
+                  <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h2 class="modal-title">Resume</h2>
+                              <button type="button" id="closeBtn" class="close" data-dismiss="modal">&times;</button>
+                          </div>
+                          <div class="modal-body" id="inputEvent">
+                              <embed src="./assets/images/images/otherimages/fullStackResume (2) (1).pdf" width="100%" height="500px"
+                                  alt="pdf If you read it try to use google Chrome"
+                                  pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" id="btn1Modal" class="close" data-dismiss="modal">Close</button>
+                              <a href="./assets/images/images/otherimages/fullStackResume (2) (1).pdf" target="_blank" download><button
+                                      type="button" id="btn2Modal">Download</button></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </main>
+          <br></br>
+
+          <!-- <div class="fixed-bottom"> -->
+          <footer class="footerClass">
+              &copy; Jonathan M. Cobb
+          </footer>
+          <!-- </div> -->
+      </div>
+      <!-- greensock -->
+      <!-- EnDzone -->
+      <p id ='footer'>&copy; TEAMSTRONG </p>
+      <div id ='slideAd'>
+          . “When you want to know how things really work, study them when they’re coming apart.”
+  - William Gibson 
+      </div>
+   
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="js/jquery-1.11.0.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/EasePack.min.js"></script>
+  </body>
+  
+  </html>
